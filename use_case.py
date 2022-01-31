@@ -4,4 +4,7 @@ import cifconvert.merge as cifmerge
 
 datadir = os.getcwd() + "/"
 
-cifconvert.init(datadir + "example.cif", datadir + "example.h5",46, 43, 1, False)
+cifconvert(datadir + "example.cif", datadir + "example.h5",46, 43)
+cifconvert()
+
+cifmerge
