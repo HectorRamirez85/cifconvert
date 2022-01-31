@@ -11,7 +11,7 @@ setuptools.setup(
     description="Convert Amnis ImageStream cif-files to a usable format.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.ugent.be/mlippeve/cifconvert",
+    url="https://github.com/HectorRamirez85/cifconvert.git",
     packages=setuptools.find_packages(),
     python_requires=">3.6.1",
     install_requires=[
